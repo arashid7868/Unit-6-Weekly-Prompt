@@ -6,6 +6,6 @@ The main difference between spritecollideany() and pygame.sprite.groupcollide() 
 
 These utilities are used in a space shooter game, but have different meanings. The spaceship collision check can check if the player has been hit by an alien and if the game should end. In the meantime, groupcollide() will see when bullets hit alien spaceships, and eliminate the alien spaceships or bullets if the right parameters are set. Both utilities provide some level of control of game interactions without the programmer having to compare all the sprites. This will make collision detection more easily implemented and will keep the game's logic in check and readable.
 
-# Reference
+## Reference
 
 Pygame. (n.d.). pygame.sprite — pygame module for sprites. https://www.pygame.org/docs/ref/sprite.html
